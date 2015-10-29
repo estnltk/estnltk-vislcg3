@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/usr/local/lib/x86_64-linux-gnu
+includedir=/usr/local/include
+
+Name: cg3
+Description: CG-3 is a compiler and applicator for the third edition of the Constraint Grammar formalism.
+Version: 0.9.9.10993
+Libs: -L${libdir} -lcg3 
+Cflags: -I${includedir}/ 

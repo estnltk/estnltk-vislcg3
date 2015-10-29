@@ -1,0 +1,101 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_-std-c--17 failed with the following output:
+Change Dir: /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2556537653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2556537653.dir/build.make CMakeFiles/cmTryCompileExec2556537653.dir/build
+make[1]: Entering directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2556537653.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_-std-c--17   -std=c++17 -o CMakeFiles/cmTryCompileExec2556537653.dir/src.cxx.o -c /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-std=c++17'
+make[1]: Leaving directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2556537653.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2556537653/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_-std-c--1z failed with the following output:
+Change Dir: /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1657514200/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1657514200.dir/build.make CMakeFiles/cmTryCompileExec1657514200.dir/build
+make[1]: Entering directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1657514200.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_-std-c--1z   -std=c++1z -o CMakeFiles/cmTryCompileExec1657514200.dir/src.cxx.o -c /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-std=c++1z'
+make[1]: Leaving directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1657514200.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1657514200/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_-std-c--14 failed with the following output:
+Change Dir: /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2177954755/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2177954755.dir/build.make CMakeFiles/cmTryCompileExec2177954755.dir/build
+make[1]: Entering directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2177954755.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_-std-c--14   -std=c++14 -o CMakeFiles/cmTryCompileExec2177954755.dir/src.cxx.o -c /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-std=c++14'
+make[1]: Leaving directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2177954755.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2177954755/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4010982071/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4010982071.dir/build.make CMakeFiles/cmTryCompileExec4010982071.dir/build
+make[1]: Entering directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4010982071.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result    -o CMakeFiles/cmTryCompileExec4010982071.dir/CheckSymbolExists.c.o   -c /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4010982071
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4010982071.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result     CMakeFiles/cmTryCompileExec4010982071.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4010982071 -rdynamic 
+CMakeFiles/cmTryCompileExec4010982071.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4010982071] Error 1
+make[1]: Leaving directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4010982071/fast] Error 2
+
+File /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1745023130/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1745023130.dir/build.make CMakeFiles/cmTryCompileExec1745023130.dir/build
+make[1]: Entering directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1745023130.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1745023130.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1745023130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1745023130.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1745023130.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1745023130 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1745023130] Error 1
+make[1]: Leaving directory `/home/timo/projects/estnltk-vislcg3/vislcg3/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1745023130/fast] Error 2
+
+
