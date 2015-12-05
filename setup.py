@@ -15,6 +15,7 @@ lib_sources = get_sources()
 swig_interface = os.path.join('estnltk_vislcg3', 'vislcg3.i')
 swig_opts = ['-builtin']
 lib_sources.remove(os.path.join('src', 'icu_uoptions.cpp'))
+lib_sources.remove(os.path.join('src', 'all_vislcg3.cpp'))
 
 # Python 3 specific configuration
 extra = {}
