@@ -140,6 +140,9 @@ struct UOption {
 int u_parseArgs(int argc, char* argv[],
             int optionCount, UOption options[]);
 
+#include <unicode/utypes.h>
+#include <cstring>
+
 #define uprv_strcpy(dst, src) U_STANDARD_CPP_NAMESPACE  strcpy(dst, src)
 #define uprv_strncpy(dst, src, size) U_STANDARD_CPP_NAMESPACE strncpy(dst, src, size)
 #define uprv_strlen(str) U_STANDARD_CPP_NAMESPACE strlen(str)
@@ -183,6 +186,7 @@ int u_parseArgs(int argc, char* argv[],
 /* Conversion from a digit to the character with radix base from 2-19 */
 /* May need to use U_UPPER_ORDINAL*/
 #define T_CString_itosOffset(a) ((a)<=9?('0'+(a)):('A'+(a)-10))
+
 
 inline int u_parseArgs(int argc, char* argv[], int optionCount, UOption options[]) {
 		char *arg;

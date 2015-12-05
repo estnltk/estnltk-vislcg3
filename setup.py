@@ -14,6 +14,7 @@ def get_sources(src_dir='src', ending='.cpp'):
 lib_sources = get_sources()
 swig_interface = os.path.join('estnltk_vislcg3', 'vislcg3.i')
 swig_opts = ['-builtin']
+lib_sources.remove(os.path.join('src', 'icu_uoptions.cpp'))
 
 # Python 3 specific configuration
 extra = {}
