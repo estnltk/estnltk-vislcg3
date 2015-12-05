@@ -32,7 +32,7 @@ using namespace Options;
 using CG3::CG3Quit;
 void GAppSetOpts(CG3::GrammarApplicator& applicator, UConverter *conv);
 
-int main(int argc, char *argv[]) {
+int vislcg3_main(int argc, char *argv[]) {
 	UFILE *ux_stdin = 0;
 	UFILE *ux_stdout = 0;
 	UFILE *ux_stderr = 0;

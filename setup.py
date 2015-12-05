@@ -11,11 +11,11 @@ def get_sources(src_dir='src', ending='.cpp'):
     """Function to get a list of files ending with `ending` in `src_dir`."""
     return [os.path.join(src_dir, fnm) for fnm in os.listdir(src_dir) if fnm.endswith(ending)]
 
-lib_sources = get_sources()
+#lib_sources = get_sources()
 swig_interface = os.path.join('estnltk_vislcg3', 'vislcg3.i')
 swig_opts = ['-builtin']
-lib_sources.remove(os.path.join('src', 'icu_uoptions.cpp'))
-lib_sources.remove(os.path.join('src', 'all_vislcg3.cpp'))
+#lib_sources.remove(os.path.join('src', 'icu_uoptions.cpp'))
+lib_sources = [os.path.join('src', 'all_vislcg3.cpp')]
 
 # Python 3 specific configuration
 extra = {}

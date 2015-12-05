@@ -33,3 +33,8 @@
         SWIG_exception(SWIG_RuntimeError, "unknown exception");
     }
 }
+
+%{
+// wrap the vislcg3 binary main method
+int vislcg3_main(int argc, char *argv[]);
+%}
