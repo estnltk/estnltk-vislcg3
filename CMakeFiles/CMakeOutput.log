@@ -355,3 +355,50 @@ Linking C executable cmTryCompileExec4039595249
 make[1]: Leaving directory `/home/timo/projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
 
 
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_-std-c--1y succeded with the following output:
+Change Dir: /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1649116179/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1649116179.dir/build.make CMakeFiles/cmTryCompileExec1649116179.dir/build
+make[1]: Entering directory `/home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1649116179.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_-std-c--1y   -std=c++1y -o CMakeFiles/cmTryCompileExec1649116179.dir/src.cxx.o -c /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:19: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec1649116179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1649116179.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_-std-c--1y   -licuio -licule -liculx CMakeFiles/cmTryCompileExec1649116179.dir/src.cxx.o  -o cmTryCompileExec1649116179 -rdynamic 
+make[1]: Leaving directory `/home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3705016205/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3705016205.dir/build.make CMakeFiles/cmTryCompileExec3705016205.dir/build
+make[1]: Entering directory `/home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3705016205.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result    -o CMakeFiles/cmTryCompileExec3705016205.dir/CheckIncludeFiles.c.o   -c /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3705016205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3705016205.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result    -licuio -licule -liculx CMakeFiles/cmTryCompileExec3705016205.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3705016205 -rdynamic 
+make[1]: Leaving directory `/home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec415891065/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec415891065.dir/build.make CMakeFiles/cmTryCompileExec415891065.dir/build
+make[1]: Entering directory `/home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec415891065.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec415891065.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec415891065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec415891065.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Wno-deprecated -Wno-unused-parameter -fPIC -Wno-unused-result -DCHECK_FUNCTION_EXISTS=pthread_create   -licuio -licule -liculx CMakeFiles/cmTryCompileExec415891065.dir/CheckFunctionExists.c.o  -o cmTryCompileExec415891065 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/timo/irrelevant-projects/estnltk-vislcg3/CMakeFiles/CMakeTmp'
+
+
