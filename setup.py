@@ -24,16 +24,14 @@ if sys.version_info[0] == 3:
 swig_opts.append('-c++')
 
 setup(
-    name = "estnltk-vislcg3",
+    name = "estnltk_vislcg3",
     version = "1.3",
 
     packages = find_packages(),
     include_package_data=True,
 
     author       = "University of Tartu",
-    author_email = "siim.orasmaa@gmail.com, alex.tk.fb@gmail.com, tpetmanson@gmail.com, swen@math.ut.ee",
-    description  = "Estnltk — open source tools for Estonian natural language processing",
-    license      = "GPLv2",
+    license      = "GPLv3",
     url          = "https://github.com/estnltk",
     ext_modules = [
         Extension('estnltk_vislcg3._vislcg3',
